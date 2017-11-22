@@ -50,25 +50,48 @@ a {
     text-align: justify;
 }
 
-/* Evenements/Serveurs */
-#evenements #serveurs {
+/* Evenements */
+#evenements {
     margin-top: 3%;
     text-align: center;
 }
 
-#evenements ul, #serveurs ul {
+#evenements ul {
     padding: 0;
     margin: 0;
     list-style: none;
 }
 
-#evenements img, #serveurs img {
+#evenements img {
     display: inline-block;
     vertical-align: middle;
 }
 
-#evenements .event, #serveurs .serveur {
+#evenements .event {
     display: inline-block;
     vertical-align: middle;
     font-size: 1.2em;
+}
+
+/* Serveurs */
+#serveurs {
+    margin-top: 3%;
+    text-align: center;
+}
+
+#serveurs ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#serveurs .serveur {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.2em;
+}
+
+#serveurs .serveur img {
+    display: inline-block;
+    vertical-align: middle;
 }
