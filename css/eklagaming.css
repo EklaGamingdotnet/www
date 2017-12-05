@@ -9,9 +9,28 @@
 	font-style: normal;
 }
 
-.navbar-brand {
+h1.navbar-brand {
     font-family: 'UnibodyBold', Arial, sans-serif;
     font-size: 1.8em;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #333;
 }
 
 ul {
