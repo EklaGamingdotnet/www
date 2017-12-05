@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'UnibodyBold';
+	src: url('fonts/Unibody8Pro-Bold.otf'),
+		url('fonts/unibody8pro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('fonts/unibody8pro-bold-webfont.woff') format('woff'),
+		url('fonts/unibody8pro-bold-webfont.ttf') format('truetype'),
+		url('fonts/unibody8pro-bold-webfont.svg#UnibodyBold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.navbar-brand {
+    font-family: 'UnibodyBold', Arial, sans-serif;
+    font-size: 1.8em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.actu li {
+  height: 30px;
+  padding-left: 25px;
+  padding-top: 3px;
+}
+
+.actu li.blog-event {
+  background: url('../images/calendar.png') no-repeat left;
+}
+
+.actu li.blog-tech {
+  background: url('../images/code.png') no-repeat left;
+}
